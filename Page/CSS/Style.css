@@ -29,14 +29,23 @@ li a:hover {
     text-decoration: none;
 }
 
-
-/*
-#logo{
-    height: 100px;
-    width: 100px;;
+img{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
 }
-*/
+
+#logo{
+    max-height: 200px;
+    max-width: 200px;
+    height: 100px;
+    width: 100px;
+}
+
 #campus{
-    
+    max-height: 100px;
+    max-width: 200px;
+    left: -200px;;
 }
 
