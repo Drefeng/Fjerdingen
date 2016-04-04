@@ -1,11 +1,8 @@
 h1{
     color: blue; 
 }
-<<<<<<< HEAD
-h2{
-    color: red;
-}
-=======
+
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -13,6 +10,7 @@ ul {
     overflow: hidden;
     background-color: white;
 }
+
 li {
     float: left;
 }
@@ -24,9 +22,21 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
 }
+
 li a:hover {
     color: white;
     background-color: #111;
     text-decoration: none;
 }
->>>>>>> master
+
+
+/*
+#logo{
+    height: 100px;
+    width: 100px;;
+}
+*/
+#campus{
+    
+}
+
