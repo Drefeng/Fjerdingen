@@ -30,27 +30,18 @@ li a:hover {
 }
 
 img{
-    position: absolute;
+    position: inherit;
     left: 0px;
     top: 0px;
     z-index: -1;
 }
-
 #logo{
-    max-height: 200px;
-    max-width: 200px;
-    height: 100px;
-    width: 100px;
+    width: 240px;
+    height: 200px;
 }
 
 #campus{
-    max-height: 100px;
-    max-width: 200px;
-    left: -200px;;
+    width: 700px;
+    height: 200px;
 }
-.container{
-    float: left;
-}
-.navBar{
-    float: inherit;
-}
+
