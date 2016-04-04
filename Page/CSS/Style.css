@@ -1,6 +1,8 @@
 h1{
     color: blue; 
 }
+
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -8,6 +10,7 @@ ul {
     overflow: hidden;
     background-color: white;
 }
+
 li {
     float: left;
 }
@@ -19,8 +22,26 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
 }
+
 li a:hover {
     color: white;
     background-color: #111;
     text-decoration: none;
 }
+
+img{
+    position: inherit;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+#logo{
+    width: 240px;
+    height: 200px;
+}
+
+#campus{
+    width: 700px;
+    height: 200px;
+}
+
