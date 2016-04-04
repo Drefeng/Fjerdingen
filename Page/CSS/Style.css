@@ -48,4 +48,9 @@ img{
     max-width: 200px;
     left: -200px;;
 }
-
+.container{
+    float: left;
+}
+.navBar{
+    float: inherit;
+}
