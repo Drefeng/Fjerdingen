@@ -30,10 +30,13 @@ li a:hover {
 }
 
 img{
-    position: inherit;
+    position: absolute;
     left: 0px;
     top: 0px;
     z-index: -1;
+    float: left;
+    margin-right: 5px;
+    margin-top: 20px;
 }
 #logo{
     width: 240px;
@@ -43,5 +46,14 @@ img{
 #campus{
     width: 700px;
     height: 200px;
+    left: 300px;
+}
+.navBar{
+    top: 1000px;
+}
+#meny{
+    top: 240px;
+    left: 100px;
+    position: absolute;
 }
 
