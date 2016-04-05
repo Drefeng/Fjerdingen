@@ -1,0 +1,59 @@
+h1{
+    color: blue; 
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: white;
+    background-color: #111;
+    text-decoration: none;
+}
+
+img{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    float: left;
+    margin-right: 5px;
+    margin-top: 20px;
+}
+#logo{
+    width: 240px;
+    height: 200px;
+}
+
+#campus{
+    width: 700px;
+    height: 200px;
+    left: 300px;
+}
+.navBar{
+    top: 1000px;
+}
+#meny{
+    top: 240px;
+    left: 100px;
+    position: absolute;
+}
+
