@@ -1,14 +1,28 @@
+h1{
+	color:blue;
+}
+
+
+p{
+	font-size: 20px;
+}
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: white;
+
+	
 }
 
 li {
     float: left;
 	font-size: 20px;
+	font-weight: 900;
+	
+	
+
 }
 
 li a {
@@ -17,6 +31,7 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+
 }
 
 li a:hover {
@@ -26,13 +41,13 @@ li a:hover {
 }
 
 img{
-    position: absolute;
     left: 0px;
     top: 0px;
     z-index: -1;
     float: left;
     margin-right: 5px;
     margin-top: 20px;
+	position:absolute;
 }
 #logo{
     width: 240px;
@@ -46,14 +61,25 @@ img{
 }
 
 #meny{
-    top: 240px;
-    left: 100px;
-    position: absolute;
+	left:25%;
+    bottom:0px;
+	height:auto;
+	width:auto;
+	position:absolute;
+
 }
+
 .footer{
-    position: absolute;
     bottom: 0px;
     
+}
+
+#box1, #box2{
+    width:555px;
+    height:720px;
+    margin-right:10px;
+    float:left;
+	position:relative;
 }
 
 
@@ -61,22 +87,31 @@ img{
 	height: 300px;
 	width: auto;
 	position:relative;
-	border: 1px solid black;
+
 	
 }
 #Content{
-	height:980px;
+	height:720px;
 	width:auto;
-	border: 1px solid black;
+	margin:auto;
 	
 	
 }
 
+
 #footer{
 	height: 200px;
 	width: auto;
-	border: 1px solid black;
 	position:relative;
 	
-	
 }
+
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+} 
