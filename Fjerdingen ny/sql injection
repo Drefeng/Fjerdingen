@@ -1,0 +1,272 @@
+-- phpMyAdmin SQL Dump
+-- version 4.4.10
+-- http://www.phpmyadmin.net
+--
+-- Host: localhost:8889
+-- Generation Time: Apr 06, 2016 at 12:17 PM
+-- Server version: 5.5.42
+-- PHP Version: 7.0.0
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+
+--
+-- Database: `fjerdingen`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `blog_posts`
+--
+
+CREATE TABLE `blog_posts` (
+  `id` int(11) unsigned NOT NULL,
+  `user_id` int(11) unsigned DEFAULT NULL,
+  `url` varchar(255) DEFAULT NULL,
+  `note` varchar(255) DEFAULT NULL,
+  `created` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `blog_post_comments`
+--
+
+CREATE TABLE `blog_post_comments` (
+  `id` int(11) unsigned NOT NULL,
+  `blog_post_id` int(11) unsigned DEFAULT NULL,
+  `user_id` int(11) unsigned DEFAULT NULL,
+  `comment` text,
+  `completed` tinyint(1) DEFAULT NULL,
+  `created` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `roles`
+--
+
+CREATE TABLE `roles` (
+  `id` int(11) unsigned NOT NULL,
+  `name` varchar(30) DEFAULT NULL
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `roles`
+--
+
+INSERT INTO `roles` (`id`, `name`) VALUES
+(1, 'admin'),
+(2, 'user');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `users`
+--
+
+CREATE TABLE `users` (
+  `id` int(11) unsigned NOT NULL,
+  `role_id` int(11) unsigned NOT NULL,
+  `first_name` varchar(50) DEFAULT NULL,
+  `last_name` varchar(50) DEFAULT NULL,
+  `email` varchar(100) DEFAULT NULL,
+  `password` varchar(255) DEFAULT NULL
+) ENGINE=InnoDB AUTO_INCREMENT=1007 DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `users`
+--
+
+INSERT INTO `users` (`id`, `role_id`, `first_name`, `last_name`, `email`, `password`) VALUES
+(900, 2, 'Helen', 'Fisher', 'hfisheroz@chicagotribune.com', 'noFtVZSTc1'),
+(901, 2, 'Peter', 'Castillo', 'pcastillop0@webs.com', 'eqrwd9WqU'),
+(902, 2, 'Nicole', 'Cox', 'ncoxp1@mapy.cz', 'eSSDS8IHR4z'),
+(903, 2, 'Janet', 'Hunter', 'jhunterp2@linkedin.com', 'rR6R4LSnKdT6'),
+(904, 2, 'Ronald', 'Mendoza', 'rmendozap3@dailymail.co.uk', '6JTRSg'),
+(905, 2, 'Eugene', 'Griffin', 'egriffinp4@globo.com', 'BhjHwvsH7R0'),
+(906, 2, 'Kathy', 'Hughes', 'khughesp5@hubpages.com', '48i0Sy'),
+(907, 2, 'Clarence', 'Hunt', 'chuntp6@weibo.com', 'bNz2FeufGs'),
+(908, 2, 'Anna', 'Bowman', 'abowmanp7@hatena.ne.jp', 'Q5RYKs'),
+(909, 2, 'Laura', 'Graham', 'lgrahamp8@disqus.com', 'xpwuRQjWUqma'),
+(910, 2, 'Carol', 'Diaz', 'cdiazp9@ihg.com', 'AmtNixbDU4'),
+(911, 2, 'Julia', 'Patterson', 'jpattersonpa@tumblr.com', 'UUqGmM'),
+(912, 2, 'Ryan', 'Dunn', 'rdunnpb@senate.gov', '5DqjzC'),
+(913, 2, 'Amy', 'Cole', 'acolepc@who.int', 'EKRVtqXPT'),
+(914, 2, 'Paul', 'Fernandez', 'pfernandezpd@constantcontact.com', 'B8lLUpL'),
+(915, 2, 'Arthur', 'Harvey', 'aharveype@jalbum.net', 'sXXZDti4'),
+(916, 2, 'Earl', 'Ryan', 'eryanpf@wikispaces.com', 'DeTZBRwFn'),
+(917, 2, 'Susan', 'Marshall', 'smarshallpg@bbb.org', 'DrRLQdx3cCb'),
+(918, 2, 'Justin', 'Chavez', 'jchavezph@google.fr', 'fKrRdYpThy'),
+(919, 2, 'Ernest', 'Stanley', 'estanleypi@wunderground.com', '7yLIv69RWX51'),
+(920, 2, 'Shawn', 'Bowman', 'sbowmanpj@nature.com', '3aknQsLLX'),
+(921, 2, 'Jason', 'Black', 'jblackpk@so-net.ne.jp', 'eKIiLvd'),
+(922, 2, 'Dennis', 'Ryan', 'dryanpl@facebook.com', '17hb5sK1aX0M'),
+(923, 2, 'Brian', 'Ray', 'braypm@geocities.com', 'IbxdzdG'),
+(924, 2, 'Dennis', 'Reed', 'dreedpn@nba.com', 'AVanzBCumpYR'),
+(925, 2, 'Kathleen', 'Harvey', 'kharveypo@tripod.com', 'REH4LLuNi'),
+(926, 2, 'Steven', 'Pierce', 'spiercepp@shop-pro.jp', '7uTAtKLMz'),
+(927, 2, 'Frances', 'Sims', 'fsimspq@squarespace.com', '935Osnw'),
+(928, 2, 'Jeremy', 'Freeman', 'jfreemanpr@slate.com', '3s2lPjapp'),
+(929, 2, 'Earl', 'Carpenter', 'ecarpenterps@tripod.com', 'Wb949WKu3'),
+(930, 2, 'Kathryn', 'Gibson', 'kgibsonpt@flickr.com', 'lMItGi'),
+(931, 2, 'Samuel', 'Mitchell', 'smitchellpu@theatlantic.com', 'HSmw06dmMooo'),
+(932, 2, 'Jonathan', 'Ryan', 'jryanpv@sakura.ne.jp', 'pyqVfTVXSl'),
+(933, 2, 'Gerald', 'Payne', 'gpaynepw@etsy.com', '2gN69T'),
+(934, 2, 'Kevin', 'Edwards', 'kedwardspx@bravesites.com', 'sz2KlN'),
+(935, 2, 'Craig', 'Olson', 'colsonpy@github.com', '82i3FnV'),
+(936, 2, 'Betty', 'Bell', 'bbellpz@tamu.edu', 'STeSk8WfUezq'),
+(937, 2, 'Debra', 'Crawford', 'dcrawfordq0@shutterfly.com', 'rKeusGwxyy'),
+(938, 2, 'Susan', 'Morrison', 'smorrisonq1@goo.gl', 'Y01tpVUNKhWr'),
+(939, 2, 'Frances', 'Green', 'fgreenq2@163.com', '16TcnQz1N1gW'),
+(940, 2, 'Harold', 'Mitchell', 'hmitchellq3@usatoday.com', 'sNf7qJSZ64O8'),
+(941, 2, 'Diane', 'Moore', 'dmooreq4@free.fr', 'w2FwEOYq'),
+(942, 2, 'Raymond', 'Evans', 'revansq5@senate.gov', 'nOqgDFFFG'),
+(943, 2, 'Jessica', 'Coleman', 'jcolemanq6@arizona.edu', 'TgbzUVRIc0'),
+(944, 2, 'Christopher', 'Ramos', 'cramosq7@usa.gov', 'k50wijx9'),
+(945, 2, 'Randy', 'Alexander', 'ralexanderq8@usa.gov', '3UQxZgOU8R'),
+(946, 2, 'Randy', 'Day', 'rdayq9@newsvine.com', 'wWYuv0H'),
+(947, 2, 'Norma', 'Kennedy', 'nkennedyqa@istockphoto.com', '6JwsmLa'),
+(948, 2, 'Edward', 'Armstrong', 'earmstrongqb@mediafire.com', 'vsbqnsAlTi'),
+(949, 2, 'Thomas', 'Butler', 'tbutlerqc@devhub.com', 'UMwqul'),
+(950, 2, 'Louise', 'Garza', 'lgarzaqd@quantcast.com', 'jJ0tQyi'),
+(951, 2, 'Angela', 'Ortiz', 'aortizqe@macromedia.com', 'y4ve7bMv'),
+(952, 2, 'Timothy', 'Henry', 'thenryqf@naver.com', 'qpL7H1X2uQmd'),
+(953, 2, 'Nicholas', 'Robinson', 'nrobinsonqg@geocities.jp', 'uWOYoqQI'),
+(954, 2, 'Fred', 'Simmons', 'fsimmonsqh@si.edu', 'xAlwd6fiXWMR'),
+(955, 2, 'Ashley', 'Andrews', 'aandrewsqi@canalblog.com', 'NhrQbPXNu'),
+(956, 2, 'Mildred', 'Marshall', 'mmarshallqj@mayoclinic.com', 'qDlb4Sk48aA'),
+(957, 2, 'Bobby', 'Morris', 'bmorrisqk@slashdot.org', 'd0sChBTwq'),
+(958, 2, 'Kelly', 'Davis', 'kdavisql@typepad.com', 'LJPLseVko'),
+(959, 2, 'Craig', 'Carpenter', 'ccarpenterqm@cyberchimps.com', 'DvzLaLbSBG'),
+(960, 2, 'Antonio', 'Peterson', 'apetersonqn@tripadvisor.com', '27dLWrXJJUdz'),
+(961, 2, 'Tina', 'Gray', 'tgrayqo@ebay.com', 'gwJtigGe2zj'),
+(962, 2, 'Diane', 'Diaz', 'ddiazqp@com.com', 'iYSkXyQTH32'),
+(963, 2, 'Frank', 'Welch', 'fwelchqq@webnode.com', 'AydoBYMOkOn'),
+(964, 2, 'Joan', 'Hernandez', 'jhernandezqr@hhs.gov', 'fmWugbYhodP'),
+(965, 2, 'Sara', 'Palmer', 'spalmerqs@dot.gov', '5zyp27B'),
+(966, 2, 'Margaret', 'Kennedy', 'mkennedyqt@wp.com', 'BsEc7sMK4V'),
+(967, 2, 'Catherine', 'Stewart', 'cstewartqu@cargocollective.com', 'O2UZWJ2dSC'),
+(968, 2, 'Rebecca', 'Palmer', 'rpalmerqv@instagram.com', 'ltX6zEQLwI'),
+(969, 2, 'Donald', 'Owens', 'dowensqw@imdb.com', 'VoWdlpMAYT'),
+(970, 2, 'Carolyn', 'Miller', 'cmillerqx@seesaa.net', 'rn1BuqzUmzhM'),
+(971, 2, 'Stephen', 'Evans', 'sevansqy@elpais.com', 'bbDaej'),
+(972, 2, 'Adam', 'Riley', 'arileyqz@dagondesign.com', 'W7DQc7XTtS'),
+(973, 2, 'Raymond', 'Clark', 'rclarkr0@vistaprint.com', 'msARHS084d'),
+(974, 2, 'Tammy', 'Carter', 'tcarterr1@skyrock.com', 'rbejQKC1Ih'),
+(975, 2, 'Debra', 'Richards', 'drichardsr2@mit.edu', 'wWyoySP'),
+(976, 2, 'Thomas', 'Harvey', 'tharveyr3@nasa.gov', '2Kthsq'),
+(977, 2, 'Debra', 'Stephens', 'dstephensr4@163.com', '5M5598O'),
+(978, 2, 'Sara', 'Bowman', 'sbowmanr5@behance.net', 'kedszbDSEELq'),
+(979, 2, 'Daniel', 'Andrews', 'dandrewsr6@yale.edu', 'fPptuDgDu'),
+(980, 2, 'Roy', 'Wright', 'rwrightr7@i2i.jp', 'WrsMgPVXYvtm'),
+(981, 2, 'Stephen', 'Scott', 'sscottr8@digg.com', 'ADR5WdXR'),
+(982, 2, 'Victor', 'Marshall', 'vmarshallr9@macromedia.com', 'px5B5vM'),
+(983, 2, 'Michael', 'Harper', 'mharperra@cbslocal.com', 'jOY1aRBG'),
+(984, 2, 'Ronald', 'Palmer', 'rpalmerrb@samsung.com', '9fOlIFh'),
+(985, 2, 'Julia', 'Fuller', 'jfullerrc@vkontakte.ru', 'EdMCHt3SXm'),
+(986, 2, 'Martha', 'Pierce', 'mpiercerd@answers.com', 'QfhaMS6z'),
+(987, 2, 'Andrew', 'Howell', 'ahowellre@fema.gov', 'eSp3Zthsrtmm'),
+(988, 2, 'Wanda', 'Collins', 'wcollinsrf@csmonitor.com', 'rG5HobM4R'),
+(989, 2, 'Roy', 'Myers', 'rmyersrg@foxnews.com', 'BJjQbsjH0'),
+(990, 2, 'Christopher', 'Moreno', 'cmorenorh@auda.org.au', 'UCjuSG'),
+(991, 2, 'Wanda', 'Gray', 'wgrayri@eepurl.com', 'EO1JvAROWSnR'),
+(992, 2, 'Lois', 'Adams', 'ladamsrj@hhs.gov', 'CQLasE'),
+(993, 2, 'Edward', 'Sims', 'esimsrk@bloglovin.com', 'ijGwVNUm8zqX'),
+(994, 2, 'Raymond', 'Ramirez', 'rramirezrl@newyorker.com', 'aMUH1JiJhq'),
+(995, 2, 'William', 'Ortiz', 'wortizrm@kickstarter.com', 'BBJz2MQ2JS'),
+(996, 2, 'Dorothy', 'Olson', 'dolsonrn@hatena.ne.jp', 'rCVa3KYbu'),
+(997, 2, 'Elizabeth', 'Wells', 'ewellsro@t-online.de', 'i86Tdzgu81'),
+(998, 2, 'Katherine', 'Wilson', 'kwilsonrp@webmd.com', 'VZs9ft'),
+(999, 2, 'Gregory', 'Palmer', 'gpalmerrq@ed.gov', 'e6dbTBhbl9FM'),
+(1000, 2, 'Joshua', 'Spencer', 'jspencerrr@sina.com.cn', 'uRXdrC857v'),
+(1001, 1, 'Admin', 'Adminsen', 'admin@admin.com', 'admin'),
+(1002, 2, 'Nirri', 'Boy', 'nirri@boy.com', 'nirri'),
+(1003, 2, 'Raymon', 'Boy', 'raymon@boy.com', 'raymon'),
+(1004, 2, 'Billy', 'Boy', 'billy@boy.com', 'billy'),
+(1005, 2, 'Dag', 'Boy', 'dag@boy.com', 'dag'),
+(1006, 2, 'Jonas', 'Boy', 'jonas@boy.com', 'jonas');
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `blog_posts`
+--
+ALTER TABLE `blog_posts`
+  ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `user_id` (`user_id`);
+
+--
+-- Indexes for table `blog_post_comments`
+--
+ALTER TABLE `blog_post_comments`
+  ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `blog_post_id` (`blog_post_id`,`user_id`),
+  ADD KEY `user_id_idxfk` (`user_id`);
+
+--
+-- Indexes for table `roles`
+--
+ALTER TABLE `roles`
+  ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `name` (`name`);
+
+--
+-- Indexes for table `users`
+--
+ALTER TABLE `users`
+  ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `email` (`email`),
+  ADD KEY `role_id_idxfk` (`role_id`);
+
+--
+-- AUTO_INCREMENT for dumped tables
+--
+
+--
+-- AUTO_INCREMENT for table `blog_posts`
+--
+ALTER TABLE `blog_posts`
+  MODIFY `id` int(11) unsigned NOT NULL AUTO_INCREMENT;
+--
+-- AUTO_INCREMENT for table `blog_post_comments`
+--
+ALTER TABLE `blog_post_comments`
+  MODIFY `id` int(11) unsigned NOT NULL AUTO_INCREMENT;
+--
+-- AUTO_INCREMENT for table `roles`
+--
+ALTER TABLE `roles`
+  MODIFY `id` int(11) unsigned NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=3;
+--
+-- AUTO_INCREMENT for table `users`
+--
+ALTER TABLE `users`
+  MODIFY `id` int(11) unsigned NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=1007;
+--
+-- Constraints for dumped tables
+--
+
+--
+-- Constraints for table `blog_posts`
+--
+ALTER TABLE `blog_posts`
+  ADD CONSTRAINT `blog_posts_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`);
+
+--
+-- Constraints for table `blog_post_comments`
+--
+ALTER TABLE `blog_post_comments`
+  ADD CONSTRAINT `blog_post_comments_ibfk_1` FOREIGN KEY (`blog_post_id`) REFERENCES `blog_posts` (`id`),
+  ADD CONSTRAINT `blog_post_comments_ibfk_2` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`);
+
+--
+-- Constraints for table `users`
+--
+ALTER TABLE `users`
+  ADD CONSTRAINT `users_ibfk_1` FOREIGN KEY (`role_id`) REFERENCES `roles` (`id`);
