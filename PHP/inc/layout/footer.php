@@ -1,7 +1,7 @@
       <hr>
 
       <footer>
-        <p>&copy; gruppe 27</p>
+        <p>&copy; Gruppe 27</p>
       </footer>
   </div>
 	  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>

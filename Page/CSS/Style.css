@@ -1,23 +1,48 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 =======
 >>>>>>> refs/remotes/origin/master
+=======
+h1{
+	color:blue;
+}
+
+h3{
+	color:blue;
+}
+
+
+p{
+	font-size: 20px;
+}
+>>>>>>> master
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: white;
+
+	
 }
 
 li {
     float: left;
 	font-size: 20px;
 <<<<<<< HEAD
+<<<<<<< HEAD
 	
 =======
 >>>>>>> refs/remotes/origin/master
+=======
+	font-weight: 900;
+
+	
+	
+
+>>>>>>> master
 }
 
 li a {
@@ -26,6 +51,7 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+
 }
 
 li a:hover {
@@ -35,17 +61,17 @@ li a:hover {
 }
 
 img{
-    position: absolute;
     left: 0px;
     top: 0px;
     z-index: -1;
     float: left;
     margin-right: 5px;
     margin-top: 20px;
+	position:absolute;
 }
 #logo{
-    width: 240px;
-    height: 200px;
+    width: 260px;
+    height: 220px;
 }
 
 #campus{
@@ -55,6 +81,7 @@ img{
 }
 
 #meny{
+<<<<<<< HEAD
     top: 240px;
     left: 100px;
     position: absolute;
@@ -66,11 +93,27 @@ img{
 	width: 1080px;
 	height: 980px;
 =======
+=======
+	left:15%;
+    bottom:0px;
+	height:auto;
+	width:auto;
+	position:absolute;
+
+>>>>>>> master
 }
+
 .footer{
-    position: absolute;
     bottom: 0px;
     
+}
+
+#box1, #box2{
+    width:555px;
+    height:720px;
+    margin-right:10px;
+    float:left;
+	position:relative;
 }
 
 
@@ -78,23 +121,45 @@ img{
 	height: 300px;
 	width: auto;
 	position:relative;
-	border: 1px solid black;
+
 	
 }
 #Content{
-	height:980px;
+	height:720px;
 	width:auto;
-	border: 1px solid black;
+	margin:auto;
+	border-top: 1px solid black;
 	
 	
 }
 
+
 #footer{
 	height: 200px;
 	width: auto;
-	border: 1px solid black;
 	position:relative;
 	
+<<<<<<< HEAD
 >>>>>>> refs/remotes/origin/master
 	
+=======
+}
+
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+} 
+.boxbox{
+	width:32%;
+    height:auto;
+    margin-right:10px;
+    float:left;
+	position:relative;
+	text-align:center;
+>>>>>>> master
 }
