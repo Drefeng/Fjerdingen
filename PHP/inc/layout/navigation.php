@@ -7,7 +7,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Fjerdingen</a>
+      <a class="navbar-brand" href="#">MooCaMaster</a>
     </div>
     <div class="navbar-collapse collapse">
       <div>

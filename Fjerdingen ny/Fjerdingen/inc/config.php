@@ -7,4 +7,4 @@ $_cgf['DEBUG'] = false;
 $_cfg['DB_HOST'] = "localhost";
 $_cfg['DB_USER'] = "root";
 $_cfg['DB_PASSWORD'] = "root";
-$_cfg['DB_NAME'] = "moocamaster";
+$_cfg['DB_NAME'] = "fjerdingen";
