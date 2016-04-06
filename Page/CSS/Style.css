@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+
+=======
+>>>>>>> refs/remotes/origin/master
+=======
 h1{
 	color:blue;
 }
@@ -10,6 +17,7 @@ h3{
 p{
 	font-size: 20px;
 }
+>>>>>>> master
 ul {
     list-style-type: none;
     margin: 0;
@@ -23,11 +31,18 @@ ul {
 li {
     float: left;
 	font-size: 20px;
+<<<<<<< HEAD
+<<<<<<< HEAD
+	
+=======
+>>>>>>> refs/remotes/origin/master
+=======
 	font-weight: 900;
 
 	
 	
 
+>>>>>>> master
 }
 
 li a {
@@ -66,12 +81,26 @@ img{
 }
 
 #meny{
+<<<<<<< HEAD
+    top: 240px;
+    left: 100px;
+    position: absolute;
+<<<<<<< HEAD
+
+}
+#Content{
+	border: solid 1px black;
+	width: 1080px;
+	height: 980px;
+=======
+=======
 	left:15%;
     bottom:0px;
 	height:auto;
 	width:auto;
 	position:absolute;
 
+>>>>>>> master
 }
 
 .footer{
@@ -110,6 +139,10 @@ img{
 	width: auto;
 	position:relative;
 	
+<<<<<<< HEAD
+>>>>>>> refs/remotes/origin/master
+	
+=======
 }
 
 hr { 
@@ -128,4 +161,5 @@ hr {
     float:left;
 	position:relative;
 	text-align:center;
+>>>>>>> master
 }

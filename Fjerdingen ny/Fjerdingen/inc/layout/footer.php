@@ -7,7 +7,7 @@
     <legend>Kontakt Info</legend>
     <br>
   <p>Om oss:<p>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin iaculis fringilla venenatis. Proin fermentum blandit tellus, eu sollicitudin metus.</p>
+  <p>Denne siden er laget av 5 studenter fra avdeling teknologi. </p>
 </div>
 
 <div class="boxbox">
@@ -16,7 +16,7 @@
     <fieldset>
     <legend>Nyhetsbrev</legend>
     Email:<br>
-    <input type="text" email="email" value="email"><br>
+    <input type="text" email="email" placeholder="Din e-mail adresse"><br>
     <br>
 
     <input type="submit" value="Submit">
@@ -30,18 +30,7 @@
     <br>
 
     <p>
-      Sed varius bibendum nunc, eget venenatis urna vestibulum eget.
-      Aliquam pharetra malesuada efficitur. Curabitur nec nisi mollis, porttitor nunc quis, placerat magna.
-      Curabitur hendrerit, lectus vel porttitor interdum, sapien tortor euismod lacus, sit amet viverra tortor tellus id mi.
-       Sed a consectetur neque. Morbi a neque non arcu vulputate luctus non non tellus.
-       Quisque elit tortor, fermentum eu justo vitae, convallis laoreet est.
-       Ut purus diam, tempus eget urna nec, eleifend volutpat felis.
-       Vestibulum mollis gravida elit, eget facilisis metus dictum eget. Donec eu commodo mi, nec molestie turpis.
-      Pellentesque eget scelerisque est, nec blandit metus. Proin vitae leo eu felis finibus tincidunt.
-      Nam nibh nibh, volutpat vitae mollis nec, efficitur at urna.
-      Nam malesuada urna urna, quis molestie nisl congue eu.
-      Interdum et malesuada fames ac ante ipsum primis in faucibus.
-      Aliquam in hendrerit leo. Integer id eleifend magna.
+          Gi oss gjerne tilbakemeldinger på nettsiden. Meld deg på nyhetsbrevet for nyttig info om Campus Fjerdingen. 
     </p>
 </div>
 
