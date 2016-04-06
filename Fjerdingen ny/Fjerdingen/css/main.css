@@ -1,0 +1,92 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+   body {
+       padding-top: 230px;
+       padding-bottom: 0px;
+   }
+
+   li {
+   	 font-size: 20px;
+   }
+
+   li a {
+       display: block;
+       color: black;
+       text-align: center;
+       margin-left: 10px;
+       border-top: 1px solid black;
+       border-bottom: 1px solid black;
+   }
+
+   li a:hover {
+     color: white;
+     background-color: lightgray;
+   }
+
+   img{
+       position: absolute;
+       left: 0px;
+       top: 0px;
+       z-index: 1;
+       float: left;
+       margin-right: 5px;
+       margin-top: 20px;
+   }
+
+   #logo{
+       width: 170px;
+       height: 200px;
+       margin-left: 40px;
+   }
+
+   #campus{
+       width: 700px;
+       height: 200px;
+       left: 300px;
+   }
+
+
+   .dropdown{
+       position: relative;
+       display: inline-block;
+   }
+
+   .drop-cont{
+       display: none;
+       border-top: 0px;
+       position: absolute;
+   }
+
+   .drop-cont a{
+       color: black;
+       padding: 12px 0px;
+       text-decoration: none;
+       display: inherit;
+       list-style-type: none;
+   }
+
+   .drop-cont li{
+     border-top: none;
+   }
+
+   .drop-cont li a{
+     border-top: 0px solid black;
+     margin-left: -30px;
+   }
+
+   .dropdown:hover .drop-cont{
+       display: block;
+       list-style-type: none;
+   }
+
+   .boxbox{
+   	width:31%;
+       height:auto;
+       margin-right:1%;
+       margin-left: 1%;
+       float:left;
+   	position:relative;
+   	text-align:center;
+   }
