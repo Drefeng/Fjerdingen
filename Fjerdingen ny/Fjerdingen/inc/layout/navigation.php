@@ -14,13 +14,13 @@
   <div class="navbar-collapse">
       <ul class="nav navbar-nav">
         <li><a href="?p=main">Hjem</a></li>
-        <li class="dropdown"><a href="?p=ansatt-info">Ansatt info</a>
+        <li class="dropdown">Ansatt info</a>
           <ul class="drop-cont">
             <li><a href="?p=Bygginformasjonansatt">Bygginformasjon</a></li>
             <li><a href="?p=ansattSamarbeid">Samarbeidsmuligheter</a></li>
           </ul>
         </li>
-        <li class="dropdown"><a href="?p=user_show_blog_post">Student info</a>
+        <li class="dropdown">Student info</a>
           <ul class="drop-cont">
             <li><a href="?p=Bygginformasjonsstudent">Bygginformasjon</a></li>
             <li><a href="?p=Studentsamarbeid">Samarbeidsmuligheter</a></li>
