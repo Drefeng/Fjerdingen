@@ -13,7 +13,7 @@
 
   <div class="navbar-collapse">
       <ul class="nav navbar-nav">
-        <li><a href="?p=hjem">Hjem</a></li>
+        <li><a href="?p=main">Hjem</a></li>
         <li class="dropdown"><a href="?p=ansatt-info">Ansatt info</a>
           <ul class="drop-cont">
             <li><a href="?p=Bygginformasjonansatt">Bygginformasjon</a></li>
