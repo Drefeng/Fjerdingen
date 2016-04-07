@@ -90,3 +90,20 @@
    	position:relative;
    	text-align:center;
    }
+.infoBox{
+    margin-top: 100px;
+    margin-bottom: 250px;
+    width: 400px;
+}
+.picture{
+    width: 350px;
+    height: auto;
+    left: 600px;
+}
+#welcome{
+    top: 380px;
+}
+#event{
+    top: 800px;
+}
+
