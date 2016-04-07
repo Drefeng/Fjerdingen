@@ -1,5 +1,4 @@
 <!--
-
 $blog_posts = get_blog_posts($db);
 foreach ($blog_posts as $blog_post) {
   echo '<h6>' . $blog_post["id"] . '</h6>';
@@ -8,15 +7,9 @@ foreach ($blog_posts as $blog_post) {
 }
 -->
 
-<style>
-#profile img{
-   width: 50px;
-   height: 50px;
-   left: 230px;
-   top: 20px;
- }
-</style>
 <br>
+
+    <div class=margin>
     <div class="col-sm-10">
       <div class="well">
         <div id="profile">
@@ -58,5 +51,4 @@ foreach ($blog_posts as $blog_post) {
         <p>Halla. Jeg sitter og gamer litt i rom 408, lyst å joine?</p>
       </div>
     </div>
-
-  </div>
+</div>

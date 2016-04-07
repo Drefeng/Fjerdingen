@@ -1,4 +1,4 @@
-<div id="Byggstudent">
+<div class="infoBox">
 <h1>Studentrettet Bygningsinformasjon</h1>
 <p>De nye fasilitetene på campus Fjerdingen vil gjøre studiehverdagen din lettere. Vi bygger nye studioer, labber, arbeidsrom og konferanserom som vil være tilgjengelige for studentene både i og utenfor vanlig undervisningstid. Rommene vil være spesielt tilrettelagt de forskjellige linjene, slik at man kan finne det utstyret man måtte trenge for å jobbe effektivt med sitt skolearbeid. 
  
