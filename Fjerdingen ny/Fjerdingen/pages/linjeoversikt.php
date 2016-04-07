@@ -1,18 +1,7 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-	</head>
-
-<body>
-
+<div class="LObox">
 <div class="Bachelor">
 
-<h1>Bachelorprogrammer ved Westerdals Oslo ACT</h1>
+<h1 class="maps">Bachelorprogrammer ved Westerdals Oslo ACT</h1>
 <h2>Campus Fjerdingen</h2>
 <h3>Avdeling for teknologi</h3>
 <p>
@@ -515,5 +504,4 @@ Når du skal legge opp en strategi er det flere ting som spiller inn. Eksterne e
 <br>
 
 </div>
-</body>
-</html>
+    </div>

@@ -1,5 +1,5 @@
-<!DOCTYPE HTML>
 
+<<<<<<< HEAD
 <html>
 
     <head>
@@ -13,6 +13,9 @@
 
 <div class="Bachelor">
 <h1>Kart over Campus Fjerdingen</h1>
+=======
+<h1 class="maps">Kart over Campus Fjerdingen</h1>
+>>>>>>> Nireban
 <p>
   <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
     1. etasje
@@ -20,7 +23,7 @@
 </p>
 <div class="collapse" id="collapseExample">
     <div class="card card-block">
-        <img src="img/kart1.jpg">
+        <img src="img/kart1.jpg" class="kart" id="placing">
     </div>
 </div>
 
@@ -34,7 +37,11 @@
         <img src="img/kart2.jpg">
     </div>
 </div>
+<<<<<<< HEAD
     
 </div>
 </body>
 </html>
+=======
+    
+>>>>>>> Nireban
