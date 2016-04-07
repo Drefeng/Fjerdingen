@@ -10,7 +10,8 @@
     </head>
 
 <body>
-    
+
+<div class="Bachelor">
 <h1>Kart over Campus Fjerdingen</h1>
 <p>
   <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
@@ -34,9 +35,6 @@
     </div>
 </div>
     
-    
+</div>
 </body>
-
-
-
 </html>
