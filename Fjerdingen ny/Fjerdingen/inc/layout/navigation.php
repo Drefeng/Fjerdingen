@@ -16,17 +16,17 @@
         <li><a href="?p=main">Hjem</a></li>
         <li class="dropdown"><a href="">Ansatt info</a>
           <ul class="drop-cont">
-            <li><a href="">Bygginformasjon</a></li>
-            <li><a href="">Samarbeidsmuligheter</a></li>
+            <li><a href="?p=Bygginformasjonansatt">Bygginformasjon</a></li>
+            <li><a href="?p=ansattSamarbeid">Samarbeidsmuligheter</a></li>
           </ul>
         </li>
         <li class="dropdown"><a href="">Student info</a>
           <ul class="drop-cont">
-            <li><a href="">Bygginformasjon</a></li>
-            <li><a href="">Samarbeidsmuligheter</a></li>
+            <li><a href="?p=Bygginformasjonsstudent">Bygginformasjon</a></li>
+            <li><a href="?p=Studentsamarbeid">Samarbeidsmuligheter</a></li>
           </ul>
         </li>
-        <li><a href="?p=linje-oversikt">Linje oversikt</a></li>
+        <li><a href="?p=linjeoversikt">Linje oversikt</a></li>
         <li><a href="?p=kart">Kart</a></li>
         <li><a href="?p=forum">Forum</a></li>
       </ul>
