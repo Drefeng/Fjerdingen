@@ -26,7 +26,7 @@
             <li><a href="?p=Studentsamarbeid">Samarbeidsmuligheter</a></li>
           </ul>
         </li>
-        <li><a href="?p=linje-oversikt">Linje oversikt</a></li>
+        <li><a href="?p=linjeoversikt">Linje oversikt</a></li>
         <li><a href="?p=kart">Kart</a></li>
         <li><a href="?p=forum">Forum</a></li>
       </ul>
